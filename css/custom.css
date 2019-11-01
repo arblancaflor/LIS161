@@ -1,0 +1,107 @@
+h1 {
+	text-align: center;
+	font-family: "Unica One", cursive;
+	font-size: 50px;
+	color: #1D1915;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	border-color: #1D1915;
+}
+
+h2 {
+	text-align: center;
+	font-family: "Tangerine", cursive;
+	font-size: 30px;
+}
+
+body {
+  	background-color: #1D1915;
+	background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+
+ul {
+	background-color: #D43D1B;
+	padding: 10px 10px 10px 10px;
+	list-style-type: none;
+}
+
+li{
+	display: inline;
+	padding: 10px 24px 10px 24px;
+    text-decoration: none !important;
+}
+
+li:hover{
+	background-color: #C8945F;
+	padding: 10px 24px 10px 24px;
+	text-decoration: none !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: #F0B522;
+	font-weight: bold;
+}
+
+#content{
+	max-width: 550px;
+  	margin: auto;
+  	background-color: white;
+  	padding: 10px 10px 10px 10px;
+}
+
+.objcenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article-header {
+	text-align: center;
+}
+
+.article-content {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	font-family: "EB Garamond", serif;
+}
+
+.review{
+	background-color: ;
+}
+.review-header{
+	font-family: Arial;
+	font-style: italic;
+}
+
+.review-content{
+	font-family: Arial;
+}
+
+#navbar {
+	text-decoration: none !important;
+	color: #FFFFFF;
+}
+
+#contentdes{
+	font-weight: bold;
+	text-align-last: center;
+}
+
+#painting {
+	filter: saturate(25%);
+}
+
+#painting:hover {
+	filter: saturate(100%);
+}
+
+
+#related{
+	display: block;
+}
+
+#reviews{
+	display: block;
+}
