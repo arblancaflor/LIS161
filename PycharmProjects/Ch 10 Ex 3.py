@@ -27,8 +27,7 @@ for line in fhand:
 tmp = count.items()
 print(tmp)
 for k,v in tmp:
-    frequency= float((v/26) * 100)
-    sort_list.append((frequency,k))
+    sort_list.append((v,k))
 tmp = sorted(sort_list, reverse=True)
 print(tmp)
 
